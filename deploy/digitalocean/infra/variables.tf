@@ -6,12 +6,6 @@ variable "name" {
   description = "Name  (e.g. `app` or `cluster`)."
 }
 
-variable "label_order" {
-  type        = list
-  default     = []
-  description = "Label order, e.g. `name`,`application`."
-}
-
 #Module      : Droplet
 variable "droplet_enabled" {
   type        = bool
